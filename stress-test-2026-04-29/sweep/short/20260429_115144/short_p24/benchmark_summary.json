@@ -1,0 +1,18 @@
+{
+    "Time taken for tests (s)": 14.283,
+    "Number of concurrency": 24,
+    "Total requests": 60,
+    "Succeed requests": 60,
+    "Failed requests": 0,
+    "Throughput(average tokens/s)": 1075.427,
+    "Average QPS": 4.201,
+    "Average latency (s)": 5.121,
+    "Average time to first token (s)": 0.718,
+    "Average time per output token (s)": 0.02,
+    "Average input tokens per request": 553.367,
+    "Average output tokens per request": 256.0,
+    "Average package latency (s)": 0.043,
+    "Average package per request": 103.267,
+    "Expected number of requests": 60,
+    "Result DB path": "/tmp/evalscope-stress/sweep/short/20260429_115144/short_p24/benchmark_data.db"
+}

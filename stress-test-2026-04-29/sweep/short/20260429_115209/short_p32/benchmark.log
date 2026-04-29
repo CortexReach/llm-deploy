@@ -1,0 +1,193 @@
+2026-04-29 11:52:09,923 - evalscope - INFO - Starting benchmark...
+2026-04-29 11:52:09,923 - evalscope - INFO - {
+    "model": "qwen3.6",
+    "model_id": "qwen3.6",
+    "attn_implementation": null,
+    "api": "openai",
+    "tokenizer_path": "/path/to/tokenizer",
+    "port": 8877,
+    "url": "<OPENAI_COMPATIBLE_CHAT_COMPLETIONS_URL>",
+    "headers": {},
+    "connect_timeout": 600,
+    "read_timeout": 600,
+    "api_key": null,
+    "no_test_connection": false,
+    "number": 64,
+    "parallel": 32,
+    "rate": -1,
+    "log_every_n_query": 10,
+    "debug": false,
+    "wandb_api_key": null,
+    "name": "short_p32",
+    "outputs_dir": "/tmp/evalscope-stress/sweep/short/20260429_115209/short_p32",
+    "max_prompt_length": 512,
+    "min_prompt_length": 512,
+    "prefix_length": 0,
+    "prompt": null,
+    "query_template": null,
+    "dataset": "random",
+    "dataset_path": null,
+    "frequency_penalty": null,
+    "logprobs": null,
+    "max_tokens": 256,
+    "min_tokens": 256,
+    "n_choices": null,
+    "seed": 42,
+    "stop": [],
+    "stop_token_ids": [],
+    "stream": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": null
+}
+2026-04-29 11:52:10,021 - evalscope - INFO - Connection successful.
+2026-04-29 11:52:13,778 - evalscope - INFO - Save the data base to: /tmp/evalscope-stress/sweep/short/20260429_115209/short_p32/benchmark_data.db
+2026-04-29 11:52:18,235 - evalscope - INFO - {
+  "Time taken for tests (s)": 4.452,
+  "Number of concurrency": 32,
+  "Total requests": 10,
+  "Succeed requests": 10,
+  "Failed requests": 0,
+  "Throughput(average tokens/s)": 574.964,
+  "Average QPS": 2.246,
+  "Average latency (s)": 4.254,
+  "Average time to first token (s)": 0.967,
+  "Average time per output token (s)": 0.017,
+  "Average input tokens per request": 532.1,
+  "Average output tokens per request": 256.0,
+  "Average package latency (s)": 0.034,
+  "Average package per request": 98.0
+}
+2026-04-29 11:52:19,285 - evalscope - INFO - {
+  "Time taken for tests (s)": 5.502,
+  "Number of concurrency": 32,
+  "Total requests": 20,
+  "Succeed requests": 20,
+  "Failed requests": 0,
+  "Throughput(average tokens/s)": 930.546,
+  "Average QPS": 3.635,
+  "Average latency (s)": 4.617,
+  "Average time to first token (s)": 0.963,
+  "Average time per output token (s)": 0.018,
+  "Average input tokens per request": 544.1,
+  "Average output tokens per request": 256.0,
+  "Average package latency (s)": 0.036,
+  "Average package per request": 101.3
+}
+2026-04-29 11:52:23,354 - evalscope - INFO - {
+  "Time taken for tests (s)": 9.571,
+  "Number of concurrency": 32,
+  "Total requests": 30,
+  "Succeed requests": 30,
+  "Failed requests": 0,
+  "Throughput(average tokens/s)": 802.44,
+  "Average QPS": 3.135,
+  "Average latency (s)": 5.742,
+  "Average time to first token (s)": 1.802,
+  "Average time per output token (s)": 0.022,
+  "Average input tokens per request": 550.667,
+  "Average output tokens per request": 256.0,
+  "Average package latency (s)": 0.039,
+  "Average package per request": 101.4
+}
+2026-04-29 11:52:24,212 - evalscope - INFO - {
+  "Time taken for tests (s)": 10.43,
+  "Number of concurrency": 32,
+  "Total requests": 40,
+  "Succeed requests": 40,
+  "Failed requests": 0,
+  "Throughput(average tokens/s)": 981.829,
+  "Average QPS": 3.835,
+  "Average latency (s)": 6.052,
+  "Average time to first token (s)": 1.849,
+  "Average time per output token (s)": 0.024,
+  "Average input tokens per request": 555.975,
+  "Average output tokens per request": 256.0,
+  "Average package latency (s)": 0.041,
+  "Average package per request": 102.375
+}
+2026-04-29 11:52:27,459 - evalscope - INFO - {
+  "Time taken for tests (s)": 13.676,
+  "Number of concurrency": 32,
+  "Total requests": 50,
+  "Succeed requests": 50,
+  "Failed requests": 0,
+  "Throughput(average tokens/s)": 935.944,
+  "Average QPS": 3.656,
+  "Average latency (s)": 6.273,
+  "Average time to first token (s)": 2.006,
+  "Average time per output token (s)": 0.025,
+  "Average input tokens per request": 552.96,
+  "Average output tokens per request": 256.0,
+  "Average package latency (s)": 0.042,
+  "Average package per request": 102.3
+}
+2026-04-29 11:52:27,762 - evalscope - INFO - {
+  "Time taken for tests (s)": 13.979,
+  "Number of concurrency": 32,
+  "Total requests": 60,
+  "Succeed requests": 60,
+  "Failed requests": 0,
+  "Throughput(average tokens/s)": 1098.784,
+  "Average QPS": 4.292,
+  "Average latency (s)": 6.345,
+  "Average time to first token (s)": 2.132,
+  "Average time per output token (s)": 0.025,
+  "Average input tokens per request": 552.133,
+  "Average output tokens per request": 256.0,
+  "Average package latency (s)": 0.041,
+  "Average package per request": 102.35
+}
+2026-04-29 11:52:28,167 - evalscope - INFO -
+Benchmarking summary:
++-----------------------------------+-------------------------------------------------------------------------------+
+| Key                               | Value                                                                         |
++===================================+===============================================================================+
+| Time taken for tests (s)          | 14.288                                                                        |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Number of concurrency             | 32                                                                            |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Total requests                    | 64                                                                            |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Succeed requests                  | 64                                                                            |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Failed requests                   | 0                                                                             |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Throughput(average tokens/s)      | 1146.736                                                                      |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average QPS                       | 4.479                                                                         |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average latency (s)               | 6.245                                                                         |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average time to first token (s)   | 2.069                                                                         |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average time per output token (s) | 0.024                                                                         |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average input tokens per request  | 553.281                                                                       |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average output tokens per request | 256.0                                                                         |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average package latency (s)       | 0.041                                                                         |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Average package per request       | 102.781                                                                       |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Expected number of requests       | 64                                                                            |
++-----------------------------------+-------------------------------------------------------------------------------+
+| Result DB path                    | /tmp/evalscope-stress/sweep/short/20260429_115209/short_p32/benchmark_data.db |
++-----------------------------------+-------------------------------------------------------------------------------+
+2026-04-29 11:52:28,173 - evalscope - INFO -
+Percentile results:
++------------+----------+----------+-------------+--------------+---------------+----------------------+
+| Percentile | TTFT (s) | TPOT (s) | Latency (s) | Input tokens | Output tokens | Throughput(tokens/s) |
++------------+----------+----------+-------------+--------------+---------------+----------------------+
+|    10%     |  0.9612  |   0.03   |   4.3044    |     524      |      256      |        28.072        |
+|    25%     |  0.966   |  0.0323  |   4.7173    |     531      |      256      |       30.2013        |
+|    50%     |  1.0565  |  0.033   |   5.6095    |     541      |      256      |       46.5428        |
+|    66%     |  1.4711  |  0.0333  |   6.4317    |     555      |      256      |       52.5503        |
+|    75%     |  4.151   |  0.0336  |   8.4779    |     582      |      256      |        54.307        |
+|    80%     |  4.2395  |  0.0338  |   8.6255    |     584      |      256      |       55.1911        |
+|    90%     |  4.5145  |  0.0346  |   9.1194    |     590      |      256      |       59.4737        |
+|    95%     |  4.5917  |  0.1388  |   9.5685    |     615      |      256      |       59.9028        |
+|    98%     |  4.732   |  0.1427  |   9.6004    |     636      |      256      |       64.5805        |
+|    99%     |  4.7322  |  0.1441  |   9.8835    |     640      |      256      |       65.1564        |
++------------+----------+----------+-------------+--------------+---------------+----------------------+
