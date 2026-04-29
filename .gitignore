@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+
+# Local environment
+.env
+*.env
+!.env.example
+
+# Logs and results
+*.log
+bench-results/
+results/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Model artifacts
+models/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth

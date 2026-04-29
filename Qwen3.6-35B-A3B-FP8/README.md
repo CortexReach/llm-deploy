@@ -11,6 +11,7 @@ domain-specific prompts.
 
 ```text
 Qwen3.6-35B-A3B-FP8/
+├── .env.example
 ├── docker-compose.yml
 ├── README.md
 └── bench.py
@@ -48,6 +49,13 @@ Set `MODEL_PATH` to the local model directory, then start the service:
 
 ```bash
 export MODEL_PATH=/path/to/Qwen3.6-35B-A3B-FP8
+docker compose up -d
+```
+
+Or use the included environment template:
+
+```bash
+cp .env.example .env
 docker compose up -d
 ```
 
