@@ -1,0 +1,92 @@
+[
+    {
+        "Percentile": "10%",
+        "TTFT (s)": 0.1113,
+        "TPOT (s)": 0.0225,
+        "Latency (s)": 8.6169,
+        "Input tokens": 1045,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 99.1327
+    },
+    {
+        "Percentile": "25%",
+        "TTFT (s)": 0.1844,
+        "TPOT (s)": 0.0228,
+        "Latency (s)": 8.6685,
+        "Input tokens": 1059,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 103.1901
+    },
+    {
+        "Percentile": "50%",
+        "TTFT (s)": 0.1893,
+        "TPOT (s)": 0.0232,
+        "Latency (s)": 9.2446,
+        "Input tokens": 1072,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 110.9264
+    },
+    {
+        "Percentile": "66%",
+        "TTFT (s)": 0.1909,
+        "TPOT (s)": 0.0235,
+        "Latency (s)": 9.3636,
+        "Input tokens": 1077,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 114.4116
+    },
+    {
+        "Percentile": "75%",
+        "TTFT (s)": 0.2478,
+        "TPOT (s)": 0.0236,
+        "Latency (s)": 10.3218,
+        "Input tokens": 1147,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 118.2255
+    },
+    {
+        "Percentile": "80%",
+        "TTFT (s)": 0.2478,
+        "TPOT (s)": 0.0237,
+        "Latency (s)": 10.3218,
+        "Input tokens": 1147,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 118.2255
+    },
+    {
+        "Percentile": "90%",
+        "TTFT (s)": 0.3621,
+        "TPOT (s)": 0.024,
+        "Latency (s)": 10.3296,
+        "Input tokens": 1154,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 118.8361
+    },
+    {
+        "Percentile": "95%",
+        "TTFT (s)": 0.3625,
+        "TPOT (s)": 0.0242,
+        "Latency (s)": 10.6446,
+        "Input tokens": 1210,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 120.1271
+    },
+    {
+        "Percentile": "98%",
+        "TTFT (s)": 0.3625,
+        "TPOT (s)": 0.0246,
+        "Latency (s)": 10.6446,
+        "Input tokens": 1210,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 120.1271
+    },
+    {
+        "Percentile": "99%",
+        "TTFT (s)": 0.3625,
+        "TPOT (s)": 0.0251,
+        "Latency (s)": 10.6446,
+        "Input tokens": 1210,
+        "Output tokens": 1024,
+        "Throughput(tokens/s)": 120.1271
+    }
+]
